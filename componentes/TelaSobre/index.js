@@ -24,56 +24,64 @@ export default function TelaSobre() {
                 </Text>
             </View>
 
-            <ScrollView style={estilo.secaoCards}>
+            <ScrollView>
 
-                <View style={estilo.reiChuva}>
+                <View style={estilo.card}>
 
-                    <Image source={reiChuva} style={estilo.img} />
+                    <Image source={reiChuva} style={estilo.imgCard} />
 
-                    <Text style={estilo.tituloReiChuva}>Rei da chuva</Text>
+                    <View style={estilo.textosCard}>
+                        <Text style={estilo.tituloCard}>Rei da chuva</Text>
 
-                    <Text style={estilo.paragrafoReiChuva}>
-                        Aprimorou a pilotagem no asfalto molhado e mostrou ser um piloto de determinação, garra
-                        e persistência.
-                    </Text>
-
-                </View>
-
-                <View style={estilo.reiMonaco}>
-
-                    <Image source={reiMonaco} style={estilo.imgReiMonaco} />
-
-                    <Text style={estilo.tituloReiMonaco}>Rei de Mônaco</Text>
-
-                    <Text style={estilo.paragrafoReiMonaco}>
-                        Conquistou o posto por ser o maior recordista de vitórias, com seis conquistas.
-                    </Text>
+                        <Text>
+                            Aprimorou a pilotagem no asfalto molhado e mostrou ser um piloto de determinação, garra
+                            e persistência.
+                        </Text>
+                    </View>
 
                 </View>
 
-                <View style={estilo.silvastone}>
+                <View style={estilo.card}>
 
-                    <Image source={silvastone} style={estilo.imgSilvastone} />
+                    <Image source={reiMonaco} style={estilo.imgCard} />
 
-                    <Text style={estilo.tituloSilvastone}>Silvastone</Text>
+                    <View style={estilo.textosCard}>
+                        <Text style={estilo.tituloCard}>Rei de Mônaco</Text>
 
-                    <Text style={estilo.paragrafoSilvastone}>
-                        Por seu currículo impressionante em Silverstone, Ayrton recebeu o apelido de
-                        'Silvastone' pela imprensa inglesa.
-                    </Text>
+                        <Text>
+                            Conquistou o posto por ser o maior recordista de vitórias, com seis conquistas.
+                        </Text>
+                    </View>
 
                 </View>
 
-                <View style={estilo.preparacao}>
+                <View style={estilo.card}>
 
-                    <Image source={preparacao} style={estilo.imgPreparacao} />
+                    <Image source={silvastone} style={estilo.imgCard} />
 
-                    <Text style={estilo.tituloPreparacao}>Preparação</Text>
+                    <View style={estilo.textosCard}>
+                        <Text style={estilo.tituloCard}>Silvastone</Text>
 
-                    <Text style={estilo.paragrafoPreparacao}>
-                        Para vencer corridas e campeonatos, o piloto precisava ter uma preparação física
-                        de atleta.
-                    </Text>
+                        <Text>
+                            Por seu currículo impressionante em Silverstone, Ayrton recebeu o apelido de
+                            'Silvastone' pela imprensa inglesa.
+                        </Text>
+                    </View>
+
+                </View>
+
+                <View style={estilo.card}>
+
+                    <Image source={preparacao} style={estilo.imgCard} />
+
+                    <View style={estilo.textosCard}>
+                        <Text style={estilo.tituloCard}>Preparação</Text>
+
+                        <Text>
+                            Para vencer corridas e campeonatos, o piloto precisava ter uma preparação física
+                            de atleta.
+                        </Text>
+                    </View>
 
                 </View>
 
