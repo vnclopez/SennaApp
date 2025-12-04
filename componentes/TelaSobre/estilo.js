@@ -40,11 +40,10 @@ const estilo = StyleSheet.create({
         padding: 10,
         flex: 1
     },
-    tituloCard:{
+    tituloCard: {
         fontSize: 18,
         fontWeight: 'bold',
     }
-
 });
 
 export default estilo;
