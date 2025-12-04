@@ -22,16 +22,18 @@ Este projeto consiste em um aplicativo sobre o Ayrton Senna. O projeto foi propo
 ## Como Executar Localmente
 
 1. Clone este repositório
-2. Acesse a pasta do projeto:
+2. Acesse a pasta do projeto
 3. Instale as dependências:
 ```sh
 npm install
 ```
-4. Execute o projeto usando Node:
+4. Instalar o aplicativo Expo no seu celular
+5. Execute o projeto usando Node:
 ```sh
-npx expo start
+npx expo start ou npx expo start --tunnel
 ```
-5. Abra [http://localhost:3000](http://localhost:3000) em seu navegador.
+6. Abra o aplicativo Expo no seu celular
+7. Clique na opcão Scan QR e foque a câmera do celular no QR code gerado ao executar o projeto no Node
 
 ---
 
